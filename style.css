@@ -1,25 +1,28 @@
 body {
-    font-family: Verdana, sans-serif;
-    background-color: #e8f0ff;
+font-family: Verdana;
+background-color: #e8f0ff;
+text-align: center;
 }
 
 h1 {
-    color: purple;
-    text-align: center;
-    margin-top: 30px;
+color: purple;
+margin-top: 30px;
 }
 
 p {
-    font-size: 18px;
-    color: #333;
-    margin: 20px;
+font-size: 18px;
+color: #333;
 }
 
 button {
-    background-color: #ff0066;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+background-color: #ff0066;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #cc0052;
 }
